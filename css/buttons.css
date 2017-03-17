@@ -1,0 +1,98 @@
+/*-----------------------------------------------------------------/
+System:     Baseplate CSS Framework
+Version:    1.0
+Author:     James Brandon
+Project:    Majestic Wines Technical Test
+-------------------------------------------------------------------*/
+
+.button-container {
+	display: block;
+}
+.btn,
+button,
+input[type=submit],
+input[type=reset],
+input[type=button] {
+    display: inline-block;
+    padding: 10px 24px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box
+}
+.btn:focus,
+.btn:hover,
+button:focus,
+button:hover,
+input[type=submit]:focus,
+input[type=submit]:hover,
+input[type=reset]:focus,
+input[type=reset]:hover,
+input[type=button]:focus,
+input[type=button]:hover {
+    color: #333;
+    border-color: #888;
+    outline: 0
+}
+
+/* Primary Buttons */
+.btn.btn--primary,
+button.btn.primary,
+input[type=submit].btn.btn--primary,
+input[type=reset].btn.btn--primary,
+input[type=button].btn.btn--primary {
+    color: #FFF;
+    background-color: #B61364;
+    border-color: #B61364;
+}
+.btn.btn--primary:focus,
+.btn.btn--primary:hover,
+button.btn.btn--primary:focus,
+button.btn.btn--primary:hover,
+input[type=submit].btn.btn--primary:focus,
+input[type=submit].btn.btn--primary:hover,
+input[type=reset].btn.btn--primary:focus,
+input[type=reset].btn.btn--primary:hover,
+input[type=button].btn.btn--primary:focus,
+input[type=button].btn.btn--primary:hover {
+    color: #FFF;
+    background-color: #D02D7E;
+    border-color: #D02D7E;
+}
+
+/* Secondary Buttons */
+.btn.btn--secondary,
+button.btn.btn--secondary,
+input[type=submit].btn.btn--secondary,
+input[type=reset].btn.btn--secondary,
+input[type=button].btn.btn--secondary {
+    color: #b61364;
+    border-color: #D4B9C5;
+}
+.btn.btn--secondary:focus,
+.btn.btn--secondary:hover,
+button.btn.btn--secondary:focus,
+button.btn.btn--secondary:hover,
+input[type=submit].btn.btn--secondary:focus,
+input[type=submit].btn.btn--secondary:hover,
+input[type=reset].btn.btn--secondary:focus,
+input[type=reset].btn.btn--secondary:hover,
+input[type=button].btn.btn--secondary:focus,
+input[type=button].btn.btn--secondary:hover {
+    color: #b61364;
+    border-color: #D4B9C5;
+}
+
+/* btn sizes */
+.btn.large {
+    padding: 15px 48px;
+}

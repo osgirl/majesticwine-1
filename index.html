@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Majestic Wines - Prototype</title>
+  <meta name="description" content="This is a test / prototype for Majestic Wines">
+  <meta name="author" content="James Brandon">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JS -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/modernizer.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Include the HTML5 shiv print polyfill for Internet Explorer browsers 8 and below -->
+  <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve column">
+
+        <!-- START: Comments Wrapper -->
+        <div class="comments__wrapper">
+
+          <!-- START: Comment Container -->
+          <div class="comment__container">
+            <p class="comment__arthor">Jimbo <span>3 days ago</span></p>
+            <div class="comment__bubble">
+              <span class="comment__arrow"></span>
+              <p>Bought this for the first time and wouldn't buy again. Was not expectting the blush colour that came out and, for me, a little sweet. It is, nevertheless, a palatable drink for all that.</p>
+            </div>
+            <p><a href="#" class="btn btn--primary action-like" data-like-count="5">Like</a> <span class="small">You and <span class="count">5</span> other people like this</span></p>
+          </div>
+          <!-- END: Comment Container -->
+
+          <!-- START: Comment Container (reply) -->
+          <div class="comment__container comment__container--response">
+            <p class="comment__arthor">John Thomas <span>Yesterday</span></p>
+            <div class="comment__bubble">
+              <span class="comment__arrow"></span>
+              <p>I'm sorry to hear you didn't enjoy it Jimbo. It does need to be opened about an hour before drinking to give it some air and time to wam up to room tempeature.</p>
+            </div>
+            <p><a href="#" class="btn btn--secondary action-like" data-like-count="1">Like</a> <span class="small"><span class="count">1</span> person likes this</span></p>
+
+            <form id="comment_ID">
+              <div class="comment__bubble comment__bubble--write">
+                <span class="comment__arrow"></span>
+                <textarea placeholder="Write a comment..." class="auto-expand" rows="1" data-min-rows="1"></textarea>
+              </div>
+              <input type="submit" name="submit__coment_ID" class="pull-right btn btn--primary large action" value="Send">
+            </form>
+          </div>
+          <!-- END: Comment Container (reply) -->
+
+          <!-- START: Comment Container -->
+          <div class="comment__container">
+            <p class="comment__arthor">James <span>10 days ago</span></p>
+            <div class="comment__bubble">
+              <span class="comment__arrow"></span>
+              <p>This is a dummy comment with a like button disabled as i already liked it. I changed the button text to "unlike" but i guess it is preference here... allow to unlike with a different button colour or say "Liked" and disable button. It is coded as an link which we could disable with some CSS but if wantning to disable we would change this button from "a" to "button" as better to disable this way.</p>
+            </div>
+            <p><a href="#" class="btn btn--primary action-like liked" data-like-count="5">Unlike</a> <span class="small">You like this</span></p>
+          </div>
+          <!-- END: Comment Container -->
+
+          <!-- START: Comment New -->
+          <div class="comment__new">
+            <h4 class="line__through"><span>Write your own review</span></h4>
+            <form id="comment_new_submit">
+              <div class="comment__bubble comment__bubble--write">
+                <span class="comment__arrow"></span>
+                <textarea placeholder="Write a comment..." class="auto-expand" rows="1" data-min-rows="1"></textarea>
+              </div>
+              <input type="submit" name="submit__coment_new" class="pull-right btn btn--primary large action" value="Leave a review">
+            </form>
+          </div>
+          <!-- END: Comment New -->
+
+        </div>
+        <!-- END: Comments Wrapper -->
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------/
+System:     Baseplate CSS Framework
+Version:    1.0
+Author:     James Brandon
+Project:    Majestic Wines Technical Test
+-------------------------------------------------------------------*/
+
+/* Mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  /* buttons */
+  .btn.action {
+    width: 100%;
+  }
+
+  /* typography */
+  .line__through {
+    text-align: left;
+    border-top: 2px solid #EDF1EE;
+    padding-top: 36px;
+  }
+  .line__through > span:before, 
+  .line__through > span:after {
+    border-bottom: 0px;
+  }
+
+}
+
+/* Tablet */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}

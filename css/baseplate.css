@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------/
+System:     Baseplate CSS Framework
+Version:    1.0
+Author:     James Brandon
+Project:    Majestic Wines Technical Test
+-------------------------------------------------------------------*/
+
+@import "normalize.css";
+@import "grid.css";
+@import "typography.css";
+@import "buttons.css";
+@import "forms.css";
+@import "responsive.css";
+
+.full-width {
+    width: 100%;
+    box-sizing: border-box
+}
+.max-full-width {
+    max-width: 100%;
+    box-sizing: border-box
+}
+.pull-right {
+    float: right
+}
+.pull-left {
+    float: left
+}
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1
+}
+.container:after,
+.row:after,
+.cf {
+    content: "";
+    display: table;
+    clear: both
+}
+.clear {
+    clear: both;
+}

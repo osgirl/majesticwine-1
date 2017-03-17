@@ -1,0 +1,78 @@
+/*-----------------------------------------------------------------/
+System:     Baseplate CSS Framework
+Version:    1.0
+Author:     James Brandon
+Project:    Majestic Wines Technical Test
+-------------------------------------------------------------------*/
+
+form {
+    overflow: auto;
+}
+input[type=tel],
+input[type=url],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+select,
+textarea {
+    height: auto;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box
+}
+input[type=tel],
+input[type=url],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+textarea {
+    min-height: auto;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+input[type=tel]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=text]:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #33C3F0;
+    outline: 0
+}
+label,
+legend {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600
+}
+fieldset {
+    padding: 0;
+    border-width: 0
+}
+input[type=checkbox],
+input[type=radio] {
+    display: inline
+}
+label>.label-body {
+    display: inline-block;
+    margin-left: .5rem;
+    font-weight: 400
+}
+.auto-expand {
+    padding-bottom: 24px !important;
+}

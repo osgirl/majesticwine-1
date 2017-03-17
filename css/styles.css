@@ -1,0 +1,93 @@
+/*-----------------------------------------------------------------/
+System:     Baseplate CSS Framework
+Version:    1.0
+Author:     James Brandon
+Project:    Majestic Wines Technical Test
+-------------------------------------------------------------------*/
+
+@import "baseplate.css";
+
+/*****************************************/
+/**** Use all your custom styles here ****/
+/*****************************************/
+
+/* Comments */
+.comment__container--response {
+  margin-left: 15%;
+}
+
+.comment__arthor {
+  padding: 0;
+  color: #B61364;
+  font-weight: bold;
+}
+
+.comment__arthor span {
+  color: #283533;
+  font-weight: normal;
+  margin-left: 12px;
+  font-size: 1em;
+}
+
+.comment__new {
+  margin-top: 35px;
+  margin-top: 3.5rem;
+}
+
+/* bubble box */
+.comment__arrow {
+  border-style: solid;
+  border-width: 20px 0 0 20px;
+  border-color: transparent transparent transparent #edf1ee;
+  position: absolute;
+  top: -20px;
+}
+
+.comment__bubble {
+  background: #edf1ee;
+  padding: 24px 24px 0 24px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.comment__bubble--write {
+  background: transparent;
+  border: 1px solid #EDF1EE;
+  padding: 24px 24px 0 24px;
+  margin-top: 2.4rem;
+  -moz-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.comment__bubble--write .comment__arrow {
+  border-color: transparent;
+}
+
+.comment__bubble--write textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  display: block;
+  box-sizing: padding-box;
+  transition:all 1s;
+  -webkit-transition:all 1s;
+}
+
+.comment__bubble p {
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.comment__container a.btn {
+  margin-right: 12px;
+}
+
+.comment__container p span.small {
+  font-size: 0.85em
+}
